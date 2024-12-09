@@ -1,0 +1,32 @@
+======== REPO stats ========
+User statistics, generated on 2023-10-17 13:03:48.938283
+------
+User: Anthony Gonzales commits:4        pullrequests:2        othermerges:0       
+   filetype:.fxml      added:331        removed:40
+   filetype:.java      added:424        removed:53
+   filetype:.csv       added:28         removed:0
+------
+User: Isaiah Malcom    commits:7        pullrequests:0        othermerges:0       
+   filetype:.fxml      added:220        removed:0
+   filetype:.java      added:376        removed:210
+   filetype:.csv       added:18         removed:0
+   filetype:.css       added:1          removed:0
+------
+======== WIKI stats =========
+User statistics, generated on 2023-10-17 13:03:48.963600
+------
+User: Anthony Gonzales commits:23       pullrequests:0        othermerges:0       
+   filetype:.md        added:157        removed:65
+------
+User: jessclem7        commits:9        pullrequests:0        othermerges:0       
+   filetype:.md        added:116        removed:56
+------
+User: juliadingee      commits:1        pullrequests:0        othermerges:0       
+   filetype:.md        added:1          removed:0
+------
+User: zhypen           commits:7        pullrequests:0        othermerges:0       
+   filetype:.md        added:43         removed:9
+------
+User: Isaiah Malcom    commits:10       pullrequests:0        othermerges:0       
+   filetype:.md        added:28         removed:8
+------
