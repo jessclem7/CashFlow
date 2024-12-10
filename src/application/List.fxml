@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: lightpink;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ListController">
+   <children>
+      <Label layoutX="189.0" layoutY="75.0" text="List of Transactions">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Button layoutX="344.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToGroup" prefHeight="43.0" prefWidth="110.0" text="Category">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Pane prefHeight="200.0" prefWidth="200.0" />
+      <TableView fx:id="tableView" layoutX="10.0" layoutY="149.0" prefHeight="424.0" prefWidth="778.0">
+        <columns>
+        <TableColumn fx:id="date" prefWidth="120.80001831054688" text="Date" />
+          <TableColumn fx:id="txType" prefWidth="220.00003051757812" text="Transaction Type" />
+            <TableColumn fx:id="description" maxWidth="500.0" prefWidth="339.199951171875" text="Description" />
+            <TableColumn fx:id="amount" maxWidth="300.0" minWidth="0.0" prefWidth="95.199951171875" text="Amount" />
+        </columns>
+      </TableView>
+      <Button layoutX="479.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToEstimator" prefHeight="43.0" prefWidth="110.0" text="Estimator">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="211.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="43.0" prefWidth="105.0" text="Home">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
